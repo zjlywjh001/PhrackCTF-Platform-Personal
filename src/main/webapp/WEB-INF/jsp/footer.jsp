@@ -1,0 +1,32 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<hr style="border: 0; background-color: #d4d4d4; height: 1px;" />
+<div class="navbar navbar-footer myfooter">
+	<div class="news-container">
+		<div class="row">
+			<div class="col-lg-12">
+				<footer role="contentinfo">
+					<p class="left">Phrack CTF Platform</p>
+					<p class="right">
+						<strong>Copyright</strong> &copy; 2016 Phrack Team
+					</p>
+				</footer>
+			</div>
+		</div>
+	</div>
+</div>
+<div style="text-align:center;font-size:10px;">
+<a href="http://www.miitbeian.gov.cn/" style="text-decoration: none;" target="_blank" class="text-muted">浙ICP备16016405号-1</a>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript"
+	src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+<!--/.fluid-container-->
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="vendors/jquery.mixitup.min.js"></script>
+<script type="text/javascript"
+	src="bootstrap/js/twitter-bootstrap-hover-dropdown.min.js"></script>
+<script type="text/javascript"
+	src="bootstrap/js/bootstrap-admin-theme-change-size.js"></script>
+<script type="text/javascript"
+	src="vendors/easypiechart/jquery.easy-pie-chart.js"></script>
