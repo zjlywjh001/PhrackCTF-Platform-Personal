@@ -1,7 +1,7 @@
 #phrackCTF-Platform-Personal
 
 This is the full version of phrackCTF-Platform including backend & frontend. This platform is for personal competition, user register as single person and take part in competition. Team version is here:
-虽然我不能保证这是前端最炫的CTF平台，这是管理功能最强大的CTF平台。
+虽然我不能保证这是前端最炫的CTF平台，但我相信这会是后台功能最友好的CTF平台。
 
 Based on Spring and SpringMVC framework.
 ##Techniques
