@@ -13,6 +13,7 @@ import java.util.Map;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
+import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 import org.slf4j.Logger;
@@ -235,7 +236,7 @@ public class ScoreBoardController {
 				continue;
 			}
 			ScoreTrend sbitem = new ScoreTrend();
-			sbitem.setusername(item.getuserobj().getUsername());
+			sbitem.setusername(StringEscapeUtils.unescapeHtml(item.getuserobj().getUsername()));
 			sbitem.setuserrank(count++);
 			
 			ArrayList<Submissions> usercorrect = new ArrayList<Submissions>();
