@@ -15,9 +15,6 @@
 		</div>
 	</div>
 </div>
-<div style="text-align:center;font-size:10px;">
-<a href="http://www.miitbeian.gov.cn/" style="text-decoration: none;" target="_blank" class="text-muted">浙ICP备16016405号-1</a>
-</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script type="text/javascript"
 	src="//code.jquery.com/jquery-2.0.3.min.js"></script>
