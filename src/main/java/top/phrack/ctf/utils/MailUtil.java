@@ -36,7 +36,6 @@ public class MailUtil {
 			MimeMessageHelper helper = new MimeMessageHelper(mimeMsg, false, "utf-8");
 			String content = (String) PropertyPlaceholder.getProperty("mail.template");
 			content = content.replace("{reseturl}", reseturl);
-			System.err.println(content);
 			helper.setText(content, true);
 			helper.setTo(new String[]{target});
 			String title = (String) PropertyPlaceholder.getProperty("mail.title");
