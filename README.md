@@ -34,6 +34,7 @@ Before using :
 1. Set mail server info in resources/spring-mail.xml because this platform using mail system to activate user.   
 2. Set database information in system.properties   
 3. Mail template in mail.properties
+4. Create a user and set column "role" to "admin" for setting a user as administrator.     
 
 ## Docker
 The docker image for this project is available now.   
