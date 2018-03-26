@@ -49,6 +49,7 @@
     <servlet-name>phrackCTF</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
+  <!-- Disable Druid WebStatView
   <filter>
     <filter-name>DruidWebStatFilter</filter-name>
     <filter-class>com.alibaba.druid.support.http.WebStatFilter</filter-class>
@@ -81,6 +82,7 @@
     <servlet-name>DruidStatView</servlet-name>
     <url-pattern>/druid/*</url-pattern>
   </servlet-mapping>
+   -->
   <filter>
     <filter-name>shiroFilter</filter-name>
     <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
