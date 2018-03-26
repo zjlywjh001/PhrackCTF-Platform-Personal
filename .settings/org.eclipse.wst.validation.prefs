@@ -8,4 +8,5 @@ override=true
 suspend=false
 vals/org.eclipse.jst.jsp.core.JSPBatchValidator/global=FF01
 vals/org.eclipse.jst.jsp.core.JSPContentValidator/global=FF01
+vals/org.eclipse.wst.jsdt.core.JsValidator/global=FF01
 vf.version=3
