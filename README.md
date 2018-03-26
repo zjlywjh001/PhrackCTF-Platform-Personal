@@ -34,7 +34,7 @@ Before using :
 3. Set database information in system.properties   
 4. Mail template in mail.properties
 5. Create a user and set column "role" to "admin" for setting a user as administrator.
-6. ***Important Security Issue!!! Change Cookie Encryption key in spring-shiro.xml before deployment***
+6. ***Important Security Issue!!! Change Cookie Encryption key in spring-shiro.xml before deployment.***
 
 ## Docker
 The docker image for this project is available now.   
@@ -42,3 +42,4 @@ See here: https://github.com/zjlywjh001/phrackCTF-Personal-Docker
 
 ## License
 Apache Public License v2.
+
